@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Mallanna&family=Poppins:wght@500;600;700;800;900&display=swap");
+
+.login-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  gap: 10rem;
+}
+
+.login-page img {
+  height: 20vh;
+  background-image: cover;
+}
+
+a {
+  border: 0px solid black;
+  border-radius: 24px;
+  background-color: #00ff7f;
+  padding: 12px 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  box-shadow: 0px 7px #2e8b57;
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+}
+
+a:active {
+  box-shadow: none;
+  top: 7px;
+  position: relative;
+}
+
+a:hover {
+  opacity: 0.7;
+}
