@@ -16,7 +16,7 @@
   background-image: cover;
 }
 
-a {
+.login-page a {
   border: 0px solid black;
   border-radius: 24px;
   background-color: #00ff7f;
@@ -31,12 +31,12 @@ a {
   text-decoration: none;
 }
 
-a:active {
+.login-page a:active {
   box-shadow: none;
   top: 7px;
   position: relative;
 }
 
-a:hover {
+.login-page a:hover {
   opacity: 0.7;
 }
