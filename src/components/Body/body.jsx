@@ -40,7 +40,7 @@ function Body() {
   const msToMinutesAndSecons = (ms) => {
     const minutes = Math.floor(ms / 60000);
     const seconds = ((ms % 60000) / 1000).toFixed(0);
-    return minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
+    return minutes + ":" + (seconds > 10 ? "0" : "") + seconds;
   };
 
   const playTrack = async (id, name, artists, image, context_uri, track_number) => {
