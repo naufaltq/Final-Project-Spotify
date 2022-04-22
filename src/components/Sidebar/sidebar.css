@@ -9,7 +9,7 @@
   height: 100%;
 }
 
-.top__links {
+.top-links {
   display: flex;
   flex-direction: column;
 }

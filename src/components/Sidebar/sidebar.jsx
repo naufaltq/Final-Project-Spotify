@@ -7,7 +7,7 @@ import Playlist from "../Playlist/playlist";
 function Sidebar() {
   return (
     <div className="sidebar-content">
-      <div className="top__links">
+      <div className="top-links">
         <div className="logo">
           <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png" alt="Logo Spotify" />
         </div>
