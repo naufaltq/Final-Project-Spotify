@@ -14,7 +14,7 @@ function Login() {
     "user-read-email",
     "user-read-private",
   ];
-  const redirect_uri = "http://localhost:3000/";
+  const redirect_uri = "https://final-project-spotify-five.vercel.app/";
 
   let url = "https://accounts.spotify.com/authorize";
   url += "?response_type=token";
