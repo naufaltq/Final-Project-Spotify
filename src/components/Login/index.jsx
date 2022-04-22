@@ -3,7 +3,17 @@ import "./login.css";
 
 function Login() {
   const client_id = process.env.REACT_APP_SPOTIFY_CLIENT_ID;
-  const scope = "playlist-modify-private";
+  const scope = [
+    "playlist-modify-private",
+    "user-modify-playback-state",
+    "user-read-playback-state",
+    "user-read-currently-playing",
+    "user-read-recently-played",
+    "user-read-playback-position",
+    "user-top-read",
+    "user-read-email",
+    "user-read-private",
+  ];
   const redirect_uri = "http://localhost:3000/";
 
   let url = "https://accounts.spotify.com/authorize";
