@@ -1,6 +1,25 @@
 # Getting Started with Create React App
 
-MY APP NAME IS UNTITLED
+My name app is Untitled
+
+DESCRIPTION
+Untitled App is a Spotify clone application that uses the Spotify Developers API. This application was built during the Generasi GIGIH 2021 program held by Gojek's non-profit organization
+
+FEATURES
+-Login with Spotify account
+-Can move to another playlist
+-Can Play the button
+-Can Click Previous and Next Songs
+-Can increase or decrease the volume
+
+STACKS
+-Create-react-app, React, Typescript
+-Styling: CSS, React-Icon
+-Use Hooks
+-Use Flex and Grid
+-Use Eslint
+-Use Material UI
+-Testing Jest
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
